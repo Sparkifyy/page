@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparkify</title>
+    <style>
+        body {
+            background-color: #1a1a1a; /* Dark Gray */
+            color: #ffffff; /* White */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            display: flex;
+            height: 100vh;
+        }
+
+        #sidebar {
+            background-color: #262626; /* Darker Gray */
+            padding: 20px;
+            width: 300px;
+            text-align: left;
+        }
+
+        #main-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        #projects {
+            margin-top: 30px;
+        }
+
+        .project-button {
+            display: block;
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #ff704d; /* Light Orange */
+            color: #ffffff; /* White */
+            text-decoration: none;
+            font-weight: bold;
+            border: 1px solid #ff704d; /* Light Orange */
+            border-radius: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .project-button:hover {
+            background-color: #ff3d00; /* Darker Orange */
+            color: #ffffff; /* White */
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <iframe src="https://discord.com/widget?id=1170661898455359518&theme=dark" width="300" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <h2 style="margin-top: 20px;">Sparkify Discord Server</h2>
+            <p>Join our coding community and spark your creativity!</p>
+        </div>
+        <div id="main-content">
+            <h1>Welcome to Sparkify - Coding Discord Server</h1>
+            <p>This is a place where coding enthusiasts gather to share knowledge, collaborate, and learn from each other. Join our server to be a part of the coding journey!</p>
+
+            <div id="projects">
+                <h2>#Projects</h2>
+                <a class="project-button" href="http://dm.sparkify.online" target="_blank">Spark-DM</a>
+                <!-- Add more project buttons as needed -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
